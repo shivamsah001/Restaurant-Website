@@ -404,7 +404,6 @@ body,html{
     width: 27%;
     border-radius: 10px;
     box-shadow: 1px 2px 5px black;
-    /* text-align: center; */
     background-color:white;
 }
 #people{
@@ -477,14 +476,9 @@ body,html{
     align-items: center;
     justify-content:center;
 }
-
-/* =========================
-   MOBILE RESPONSIVE
-   ========================= */
-
+  
 @media (max-width: 600px) {
 
-    /* Header */
     #header {
         height: 60px;
         align-items: center;
@@ -563,8 +557,6 @@ body,html{
         height: 300px;
     }
 
-
-    /* Quality Section */
     #best {
         height: auto;
         flex-direction: column;
@@ -579,7 +571,7 @@ body,html{
     }
 
 
-    /* Special Section */
+    
     #special {
         height: auto;
         padding: 20px 0;
@@ -599,7 +591,6 @@ body,html{
     }
 
 
-    /* Food Section */
     #food {
         height: auto;
         padding-bottom: 30px;
@@ -678,7 +669,6 @@ body,html{
     }
 
 
-    /* Table Section */
     #table {
         height: auto;
         padding: 20px 0;
